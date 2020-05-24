@@ -3,7 +3,8 @@
 
   angular.module('FirstHeadache',[]);
 
-  .controller('FirstController',function () {
+  .controller('FirstController',function ($scope) {
+    $scope.name = "Ranji";
 
   })
 
