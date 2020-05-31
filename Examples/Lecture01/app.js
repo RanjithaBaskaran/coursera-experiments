@@ -1,11 +1,12 @@
 (function () {
-  'use strict'
+'use strict';
 
-  angular.module('FirstHeadache',[]);
+angular.module('firstHeadache', [])
 
-  .controller('FirstController',function ($scope) {
-    $scope.name = "Ranji";
+.controller('FirstController', function ($scope) {
+  $scope.name="Ranji";
 
-  })
+
+});
 
 })();
